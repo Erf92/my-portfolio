@@ -1,6 +1,9 @@
 export default function ProjectsSection() {
   return (
-    <section className="flex flex-col gap-4 items-start justify-center">
+    <section
+      id="projects"
+      className="flex flex-col gap-4 items-start justify-center"
+    >
       <h3 className="text-xl font-bold">Projects</h3>
       <div className="grid grid-cols-3 gap-2">
         <div className="col-span-1 shadow-xl rounded-xl p-5 flex flex-col gap-3 justify-start items-start">

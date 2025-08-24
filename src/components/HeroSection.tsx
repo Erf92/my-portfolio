@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Prof from "../assets/profile.png";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -12,9 +13,12 @@ export default function HeroSection() {
           <h3 className="text-3xl">Hi Im Erfan</h3>
           <p>Frontend Developer | React & Next.js</p>
         </div>
-        <button className="bg-neutral-700 text-white px-2 py-1 rounded-xl">
+        <Link
+          href="#projects"
+          className="bg-neutral-700 text-white px-2 py-1 rounded-xl"
+        >
           View My Work
-        </button>
+        </Link>
       </div>
     </section>
   );
