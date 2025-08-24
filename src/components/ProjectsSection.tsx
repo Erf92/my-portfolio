@@ -16,12 +16,22 @@ export default function ProjectsSection() {
             </span>
           </div>
           <div className="flex items-center gap-1">
-            <button className="p-2 border border-neutral-200 rounded-xl font-semibold">
+            <a
+              href="https://todo-list-lime-two-41.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 border border-neutral-200 rounded-xl font-semibold"
+            >
               Demo
-            </button>
-            <button className="p-2 border border-neutral-200 rounded-xl font-semibold">
+            </a>
+            <a
+              href="https://github.com/Erf92/todo-list"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 border border-neutral-200 rounded-xl font-semibold"
+            >
               Code
-            </button>
+            </a>
           </div>
         </div>
         <div className="col-span-1 shadow-xl rounded-xl p-5 flex flex-col gap-3 justify-start items-start">
@@ -42,14 +52,15 @@ export default function ProjectsSection() {
               Tanstack Query
             </span>
           </div>
-          <div className="flex items-center gap-1">
-            <button className="p-2 border border-neutral-200 rounded-xl font-semibold">
-              Demo
-            </button>
-            <button className="p-2 border border-neutral-200 rounded-xl font-semibold">
-              Code
-            </button>
-          </div>
+
+          <a
+            href="https://github.com/Erf92/Store-Page-Next"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 border border-neutral-200 rounded-xl font-semibold"
+          >
+            Code
+          </a>
         </div>
         <div className="col-span-1 shadow-xl rounded-xl p-5 flex flex-col gap-3 justify-start items-start">
           <h4 className="font-semibold">Portfolio Website</h4>
@@ -64,14 +75,14 @@ export default function ProjectsSection() {
               Tailwind
             </span>
           </div>
-          <div className="flex items-center gap-1">
-            <button className="p-2 border border-neutral-200 rounded-xl font-semibold">
-              Demo
-            </button>
-            <button className="p-2 border border-neutral-200 rounded-xl font-semibold">
-              Code
-            </button>
-          </div>
+          <a
+            href="https://github.com/Erf92/my-portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 border border-neutral-200 rounded-xl font-semibold"
+          >
+            Code
+          </a>
         </div>
       </div>
     </section>
